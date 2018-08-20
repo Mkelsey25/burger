@@ -1,0 +1,7 @@
+Veggie Burger App 
+Author: Morgan Hamlin
+Technologies: This app uses mysql, node.js, express.js, body-parser, handlebars.js, bootstrap, and fontAwesome.
+
+What it Does: Using this application, you can add new burgers to the restaurant, and they will appear in the left section of the html page, along with a "devour" button. When the devour button is clicked, the burger moves to the right side or the "devoured" side of the webpage. The user cannot move the burger back over the the left side.
+
+How it Works: This application uses the ORM programming technique to allow for conversion of data across different systems. 
