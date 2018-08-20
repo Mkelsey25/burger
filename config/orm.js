@@ -17,7 +17,7 @@ connection.connect(function(err) {
 var orm = {
 
   selectAll: function(cb) {
-    connection.query('SELECT * FROM burgers', function (err, res) {
+    connection.query('SELECT * FROM burgers;', function (err, res) {
       if (err) throw err;
       cb(res);
     });
