@@ -16,10 +16,10 @@ connection.connect(function(err) {
 //Create ORM object and run queries
 var orm = {
 
-  selectAll: function(callback) {
+  selectAll: function(cb) {
     connection.query('SELECT * FROM burgers', function (err, res) {
       if (err) throw err;
-      callback(res);
+      cb(res);
     });
 
   },
