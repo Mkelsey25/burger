@@ -5,7 +5,7 @@ var burger = require('../models/burger.js');
 
 // Create routes
 router.get('/', function (req, res) {
-  res.redirect('/index');
+  res.redirect('/index.html');
 });
 
 router.get('/index', function (req, res) {
